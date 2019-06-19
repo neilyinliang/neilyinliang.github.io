@@ -46,6 +46,7 @@ layout: default
       </center>
     </header>
   </div>
+  <!--
   <div class="row">
     <div class="col-md-1"></div>
     <div class="col-md-8 offset-md-1">
@@ -58,4 +59,17 @@ layout: default
       {% endfor %}
     </div>
   </div>
+  -->
+  
+  <div class="row justify-content-center">
+  <div class="col-md-1"></div>
+  <div class="col-md-8 offset-md-1">
+    {% assign categories = site.categories | sort %}
+    {% for category in categories %}
+	  <br>
+      <h3>On {{ category | first }}</h3>
+      <p>{% for post in category[1] %}{{ forloop.index }}.&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a>&nbsp;&nbsp{% endfor %}</p>
+    {% endfor %}
+  </div>
+</div>
 </div>
