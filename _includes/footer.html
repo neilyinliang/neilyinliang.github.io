@@ -1,10 +1,27 @@
 <footer>
   <div class="container">
     <div class="row biography">
+	  <div class="col-sm-8">
+        <h2>the alien</h2>
+        <p>{{ site.description }}</p>
+      </div>
       <div class="col-sm-4">
         <h2>who am i</h2>
-        <p>{{ site.biography }}</p>
+        <p>{{ site.biography }}<br>
+		{% if site.email %}
+        <a href="mailto:{{ site.email }}">
+            <span class="username">{{ site.email }}</span>
+        </a>
+		<br>	
+		{% endif %}
+		{% if site.github_username %}
+		<a href="https://github.com/{{ site.github_username }}">
+              <span class="username">github//{{ site.github_username }}</span>
+        </a>
+		{% endif %}
+		</p>
       </div>
+	  <!--
       <div class="col-sm-4">
         <h2>what is this</h2>
         <p>{{ site.description }}</p>
@@ -47,6 +64,7 @@
           </div>
           {% endif %}
       </div>
+	  -->
     </div>
     {% if site.colophon %}
     <div class="row copyright">

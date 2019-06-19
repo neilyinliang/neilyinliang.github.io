@@ -1,20 +1,21 @@
 # Site settings
 locale: "zh-CN"
-title: "On Software Engineering, Management<br>and Philosophy"
+title: "THE ALIEN"
 author: "Neil Yin"
-description: "This is a blog about software, some management, and the occasional philosophy. Not necessarily in that order."
-keywords: "Software Engineering, Management, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
-biography: "I am a Professor of Software Engineering at the <a href='http://www.fe.up.pt'>Faculty of Engineering</a>, University of Porto and Senior Researcher at <a href='https://www.inesctec.pt'>INESC TEC</a>. Here you can find my <a href='/assets/thesis.pdf'>PhD Thesis</a> and my <a href='/assets/cv.pdf'>Résumé</a>."
-colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
+description: "&quot;The older I grow, the more of an alien I find myself in the world; I cannot get used to it, cannot believe that it is real. I think I must have been made to live on some other Star. Or perhaps I am subject to hallucinations and hear voices; perhaps what I seem to see is delusion and doesn't happen; perhaps people don't really say the things I think I hear them saying.&quot;&nbsp;&nbsp;(by Logan Pearsall Smith)"
+keywords: "Software Engineering, Management, Philosophy, THE ALIEN, Neil Yin, sanglin, 殷亮, 桑林咨询"
+biography: "Neil Yin<br>IT作家·咨询顾问"
+colophon: "© 2019 by Neil Yin.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
 
 baseurl: ""
-url: "http://hugosereno.eu"
+url: "http://neilyinliang.github.io"
 
-twitter_username: ferreira_hugo
-github_username: hugoferreira
-linkedin_username: hugoserenoferreira
-facebook_username: hugo.sereno.ferreira
-google-analytics: UA-69060-5
+twitter_username: 
+github_username: neilyinliang
+email: neilyin@msn.com
+linkedin_username: 
+facebook_username: 
+google-analytics: 
 
 simple_search: http://google.com/search
 markdown: kramdown
