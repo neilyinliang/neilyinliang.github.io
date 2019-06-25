@@ -58,7 +58,10 @@ body {
 
 article {
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
-  letter-spacing:2px;
+  
+  p {
+	letter-spacing: 2px;
+  }
 	
   ul li {
     padding-left: 0em;
@@ -101,6 +104,7 @@ blockquote {
   margin-left: -1em;
   background-color: #ede5d9;
   padding: 20px;
+  letter-spacing:0px;
 
   > :last-child {
     margin-bottom: 0;
